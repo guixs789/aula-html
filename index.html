@@ -3,30 +3,48 @@
 <head>
         <title>Curriculo Virtual</title>
     <style>
+        div#titulo
+        {
+            border-radius: 50px;
+            background-color: rgb(255, 255, 255);
+            border-style: dashed;
+        }
         header 
         {
-            background-color: rgb(171, 181, 231);
+            background-color: rgb(0, 0, 0);
             display: flex;
             align-items: center;
             justify-content: space-around;
             padding: 30px;
+            color: rgb(226, 43, 43);
+            border-styledouble;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
-      img 
-      {
-        border-radius: 50%;
-      }
-      ul li {
+        body{
+            background-color:rgb(218, 224, 246)
+        }
+        img 
+       {
+         border-radius: 50%;
+         border-style: hidden;
+       }
+       ul li {
         color: rgb(10, 9, 10);
-      }
-      table{
-        background-color: black;
-        color: blue;
-      }
+       }
+       table{
+        background-color: rgb(16, 202, 115);
+        color: rgb(0, 0, 0);
+       }
+       h2#quotes{
+        font-family: "Cedarville Cursive", cursive;
+       }
     </style>
 </head>
-<body style="background-color:rgb(218, 224, 246)">
     <center>
-        <h1>Curriculo Virtual</h1>
+        <div id="titulo">
+            <h1>Curriculo Virtual</h1>
+        </div>
+        <p></p>
         <header>
             <h1>Guilherme Gomes Baraúna do Couto</h1>
             <img src="Imagens/Valdir_de_Moraes_Filho.jpg" alt="eu" width="300px"> 
@@ -53,6 +71,14 @@
         
         <h1>===========================</h1>
         <h1>Contato</h1>
+        <p></p>
+            <form action="get">
+            <label for="email"> Email:</label>
+            <p></p>
+            <textarea name="" id="" cols="45" rows="1"></textarea>
+            <input type="submit">
+            <p></p>
+           </form>
         <table>
             <thead>
                 <tr>
@@ -71,6 +97,17 @@
                 </tr>
             </tbody>
         </table>
+        <p></p>
+        <h1>
+            !!!
+        </h1>
+            <h2 id="quotes">
+            Those who can't remember the past are condemned to repeat it" - George Satayana
+            <p></p>
+            "The worst enemy you cant meet will always be yourself" - Friedrich Nietzsch
+            <p></p>
+            "Ta tranquilo ta favoravel" - MC Bin Laden
+            </h2>
     </center>
 </body>
 </html>
