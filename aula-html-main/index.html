@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Guilherme Gomes Baraúna do Couto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            border: 4px solid #fff;
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #222;
+            color: #fff;
+        }
+        #quotes {
+            font-family: "Cedarville Cursive", cursive;
+            color: #777;
+        }
+        header h1 {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guilherme Gomes Baraúna do Couto</h1>
+        <img src="Imagens/Gui.png" alt="Foto">
+    </header>
+
+    <section>
+        <h2>Informações</h2>
+        <ul>
+            <li>Idade: 18 anos</li>
+            <li> Salvador, Bahia</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Qualidades</h2>
+        <ul>
+            <li>Esforçado</li>
+            <li>Proativo</li>
+            <li>Determinado</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Redes Sociais</h2>
+        <a target='_blank' href="https://www.instagram.com/gui_barauna17/"><img src="Imagens/Instagram.png" alt="Instagram" width="50px"></a>
+        <a target='_blank' href="https://github.com/guixs789"><img src="Imagens/Github.png" alt="GitHub" width="50px"></a>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <form action="get">
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section>
+        <h2>Experiência Profissional</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Cargo</th>
+                    <th>Salário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gui</td>
+                    <td>guilhermebaraunacouto@hotmail.com</td>
+                    <td>Desempregado</td>
+                    <td>Liso</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Citações Favoritas</h2>
+        <p id="quotes">
+            "Aqueles que não conseguem lembrar o passado estão condenados a repeti-lo." - George Santayana<br>
+            "O pior inimigo que você pode encontrar será sempre você mesmo." - Friedrich Nietzsche<br>
+            "Tá tranquilo, tá favorável." - MC Bin Laden
+        </p>
+    </section>
+</body>
+</html>
